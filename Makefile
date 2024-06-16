@@ -24,3 +24,5 @@ run-stemdump: $(SUBDIRS)
 
 run-stemelf: $(SUBDIRS)
 	./build/stemelf/stemelf examples/stemelf/test eps
+run-stemreq: $(SUBDIRS)
+	./build/stemreq/stemreq https://www.example.com hb
